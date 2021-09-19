@@ -1,0 +1,1 @@
+.scrollToTopButton{background-color:#de2f2cc9;border:none;border-radius:50%;bottom:clamp(10px,10%,30px);height:50px;line-height:48px;opacity:0;position:fixed;right:clamp(10px,10%,30px);transform:translateY(100px);transition:all .5s ease;width:50px;z-index:1}.scrollToTopButton img{width:60%}.showed{opacity:1;transform:translateY(0)}.showed:hover{transform:scale(1.1)}
