@@ -1,6 +1,6 @@
 import OverlayScrollbars from 'OverlayScrollbars';
-import RevealFx from 'RevealFx'
-import './css/OverlayScrollbars.css'
+import './css/OverlayScrollbars.css';
+
 
 
 // Custom scrollbar
@@ -29,11 +29,3 @@ const target = document.querySelector("footer");
     };
   scrollToTopBtn.addEventListener("click", scrollToTop);
 })();
-
-// Reveal animations
-const myName = document.querySelector('h1');
-const nameRevealer = new RevealFx(myName,{});
-
-nameRevealer.reveal({
-  
-})
